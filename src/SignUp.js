@@ -1,6 +1,6 @@
 import React from 'react';
 
-class signUpForm extends React.Component {
+class SignUp extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -19,4 +19,4 @@ class signUpForm extends React.Component {
     }
 }
 
-export default signUpForm;
+export default SignUp;
