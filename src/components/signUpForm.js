@@ -8,7 +8,12 @@ class signUpForm extends React.Component {
     render() {
         return(
             <div>
-                <h1>Hello from sign up form page</h1>
+                <form>
+                    <label>First Name</label>
+                    <input type="text"/>
+                    <label>Last Name</label>
+                    <input type="text"/>
+                </form>
             </div>
         );
     }
