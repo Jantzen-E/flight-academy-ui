@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+.daysAndClasses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.daysAndClasses h4.canSchedule:hover {
+  color: red;
+  cursor: pointer;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
